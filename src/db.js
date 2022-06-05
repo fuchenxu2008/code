@@ -1,7 +1,7 @@
 import postgres from 'postgres'
 import { node1, node2, node3 } from './config/index.js'
 
-export const sql1 = postgres({
+export const agent1 = postgres({
   host: [ 'localhost' ],
   port: [ node1.port ],
   path: false,
@@ -10,7 +10,7 @@ export const sql1 = postgres({
   pass: '',
 })
 
-export const sql2 = postgres({
+export const agent2 = postgres({
   host: [ 'localhost' ],
   port: [ node2.port ],
   path: false,
@@ -19,7 +19,7 @@ export const sql2 = postgres({
   pass: '',
 })
 
-export const sql3 = postgres({
+export const agent3 = postgres({
   host: [ 'localhost' ],
   port: [ node3.port ],
   path: false,
