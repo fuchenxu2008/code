@@ -1,0 +1,36 @@
+2022-06-09 17:52:57.268 PDT [12762] FATAL:  data directory "/Users/fuchenxu/Desktop/UCI/CS223/project/node1" has invalid permissions
+2022-06-09 17:52:57.268 PDT [12762] DETAIL:  Permissions should be u=rwx (0700) or u=rwx,g=rx (0750).
+2022-06-09 17:53:17.991 PDT [13013] LOG:  starting PostgreSQL 14.3 on x86_64-apple-darwin21.3.0, compiled by Apple clang version 13.1.6 (clang-1316.0.21.2), 64-bit
+2022-06-09 17:53:17.991 PDT [13013] LOG:  listening on IPv6 address "::", port 5432
+2022-06-09 17:53:17.991 PDT [13013] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-06-09 17:53:17.992 PDT [13013] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-06-09 17:53:17.996 PDT [13014] LOG:  database system was shut down at 2022-06-09 17:52:38 PDT
+2022-06-09 17:53:17.999 PDT [13013] LOG:  database system is ready to accept connections
+2022-06-09 17:53:23.010 PDT [13098] LOG:  starting PostgreSQL 14.3 on x86_64-apple-darwin21.3.0, compiled by Apple clang version 13.1.6 (clang-1316.0.21.2), 64-bit
+2022-06-09 17:53:23.010 PDT [13098] LOG:  listening on IPv6 address "::", port 5433
+2022-06-09 17:53:23.010 PDT [13098] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2022-06-09 17:53:23.011 PDT [13098] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2022-06-09 17:53:23.014 PDT [13099] LOG:  database system was shut down at 2022-06-09 17:52:43 PDT
+2022-06-09 17:53:23.017 PDT [13098] LOG:  database system is ready to accept connections
+2022-06-09 17:53:27.501 PDT [13184] LOG:  starting PostgreSQL 14.3 on x86_64-apple-darwin21.3.0, compiled by Apple clang version 13.1.6 (clang-1316.0.21.2), 64-bit
+2022-06-09 17:53:27.501 PDT [13184] LOG:  listening on IPv6 address "::", port 5434
+2022-06-09 17:53:27.501 PDT [13184] LOG:  listening on IPv4 address "0.0.0.0", port 5434
+2022-06-09 17:53:27.502 PDT [13184] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5434"
+2022-06-09 17:53:27.505 PDT [13185] LOG:  database system was shut down at 2022-06-09 17:52:06 PDT
+2022-06-09 17:53:27.508 PDT [13184] LOG:  database system is ready to accept connections
+2022-06-09 17:53:32.259 PDT [13255] FATAL:  no pg_hba.conf entry for host "192.168.86.76", user "Chenxu Fu", database "project", no encryption
+2022-06-09 17:53:49.940 PDT [13410] FATAL:  no pg_hba.conf entry for host "192.168.86.76", user "Chenxu Fu", database "project", no encryption
+2022-06-09 17:56:49.583 PDT [13013] LOG:  received fast shutdown request
+2022-06-09 17:56:49.583 PDT [13013] LOG:  aborting any active transactions
+2022-06-09 17:56:49.584 PDT [13013] LOG:  background worker "logical replication launcher" (PID 13020) exited with exit code 1
+2022-06-09 17:56:49.584 PDT [13015] LOG:  shutting down
+2022-06-09 17:56:49.588 PDT [13013] LOG:  database system is shut down
+2022-06-09 17:56:52.169 PDT [15086] LOG:  starting PostgreSQL 14.3 on x86_64-apple-darwin21.3.0, compiled by Apple clang version 13.1.6 (clang-1316.0.21.2), 64-bit
+2022-06-09 17:56:52.169 PDT [15086] LOG:  listening on IPv6 address "::", port 5432
+2022-06-09 17:56:52.169 PDT [15086] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-06-09 17:56:52.170 PDT [15086] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-06-09 17:56:52.174 PDT [15087] LOG:  database system was shut down at 2022-06-09 17:56:49 PDT
+2022-06-09 17:56:52.176 PDT [15086] LOG:  database system is ready to accept connections
+2022-06-09 17:57:00.063 PDT [15191] FATAL:  password authentication failed for user "Chenxu Fu"
+2022-06-09 17:57:00.063 PDT [15191] DETAIL:  Role "Chenxu Fu" does not exist.
+	Connection matched pg_hba.conf line 87: "host    all             all             0.0.0.0/0               md5"
